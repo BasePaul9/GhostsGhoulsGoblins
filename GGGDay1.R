@@ -2,7 +2,7 @@ library(tidyverse)
 library(tidymodels)
 library(vroom)
 
-#setwd("./GhostsGhoulsGoblins")
+setwd("./GhostsGhoulsGoblins")
 train_missing <- vroom("trainWithMissingValues.csv")
 train <- vroom("train.csv")
 test <- vroom("test.csv")
